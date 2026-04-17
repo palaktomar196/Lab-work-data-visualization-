@@ -1,0 +1,16 @@
+try:
+    age = int(input("Enter your age: "))
+
+    if age >= 18:
+        print("User is eligible for voting")
+    else:
+        print("User is not eligible for voting")
+
+except ValueError:
+    print("Invalid input! Please enter a valid age")
+
+else:
+    print("Age checked successfully")
+
+finally:
+    print("Program ended")
