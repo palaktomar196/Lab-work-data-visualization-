@@ -1,0 +1,11 @@
+with open("input.txt", "r") as file:
+    r = float(file.read())
+
+area = 3.14 * r * r
+perimeter = 2 * 3.14 * r
+
+with open("output.txt", "w") as file:
+    file.write("Area of circle = " + str(area) + "\n")
+    file.write("Perimeter of circle = " + str(perimeter))
+
+print("Calculation completed")
